@@ -100,8 +100,9 @@ img{
   margin-right: 5rem;
 }
 
-.change-font-color{
-  color: #ffd699
+.change-font-color-and-bold{
+  font-weight: bold;
+  color: #ff9933;
 }
 
 /*End reusable*/
