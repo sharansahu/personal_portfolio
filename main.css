@@ -380,8 +380,8 @@ li{
 
 .image_description{
   font-size: 2em;
-  object-fit: cover;
-  object-position: bottom;
+  width: fit-content;
+  block-size: fit-content;
 }
 
 .papers-description h1{
