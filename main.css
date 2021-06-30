@@ -363,7 +363,7 @@ li{
   transition: opacity 0.25s;
 }
 
-.image_overlay:hover{
+.image_overlay:hover, .image_overlay:active{
   opacity: 1;
 }
 
@@ -372,7 +372,7 @@ li{
   transition: transform 0.25s;
 }
 
-.image_overlay:hover > * {
+.image_overlay:hover, .image_overlay:active > * {
   transform: translateY(0);
 }
 
