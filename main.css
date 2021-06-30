@@ -347,6 +347,7 @@ li{
 
 .image_overlay{
   position: absolute;
+  cursor: pointer;
   top: 0;
   left: 0;
   width: 100%;
