@@ -346,6 +346,7 @@ li{
 }
 
 .image_overlay{
+  touch-action: auto;
   position: absolute;
   top: 0;
   left: 0;
