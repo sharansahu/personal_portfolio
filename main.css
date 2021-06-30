@@ -347,7 +347,6 @@ li{
 
 .image_overlay{
   position: absolute;
-  cursor: pointer;
   top: 0;
   left: 0;
   width: 100%;
@@ -364,7 +363,7 @@ li{
   transition: opacity 0.25s;
 }
 
-.image_overlay:hover, .image_overlay:focus, .image_overlay:active{
+.image_overlay:hover{
   opacity: 1;
 }
 
@@ -373,7 +372,7 @@ li{
   transition: transform 0.25s;
 }
 
-.image_overlay:hover, .image_overlay:focus, .image_overlay:active > * {
+.image_overlay:hover > * {
   transform: translateY(0);
 }
 
