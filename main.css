@@ -407,7 +407,7 @@ li{
 }
 
 .image_description{
-  font-size: clamp(1rem, 2rem, 3rem);
+  font-size: 1rem
   max-width: 100%;
   max-height: clamp(10%, 100%, 30%);
   block-size: fit-content;
