@@ -396,20 +396,21 @@ li{
 }
 
 .image_overlay > * {
-  transform: translateY(20px);
+  transform: translateY(-20px);
   transition: transform 0.25s;
 }
 
 .image_overlay:hover, .image_overlay:active > * {
-  transform: translateY(0);
+
 }
 
 .image_description{
   font-size: 2rem;
   max-width: 100%;
   object-fit: cover;
+  vertical-align: middle;
   object-position: center;
-  max-height: clamp(10%, 100%, 30%);
+  max-height: 100%;
   block-size: fit-content;
 }
 
