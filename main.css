@@ -16,7 +16,6 @@ body{
   height: 100%;
   background: url("images/sitebg.jpg") no-repeat center fixed;
   background-size: cover;
-
 }
 
 section{
@@ -220,6 +219,7 @@ li{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: inline-block;
   width: 100%;
   text-align: center;
   z-index: 1;
@@ -235,11 +235,38 @@ li{
   user-select: none;
 }
 
-.landing-text h6{
+.landing-text h2{
+  position: relative;
   font-size: 2rem;
-  font-weight: 400;
-
+  font-weight: 300;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  line-height: 0;
+  text-align: center;
+  border-right: 1px solid #ffffff
 }
+
+#text::after{
+  content: '';
+  width: 1px;
+  height: 2rem;
+  border-right: 2px solid white;
+  animation: blink 0.5s infinite ease;
+  }
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
 /*End header*/
 
 /*Start about*/
@@ -343,6 +370,7 @@ li{
 .image_img{
   display: block;
   width: 100%;
+  border-radius: 10px;
 }
 
 .image_overlay{
@@ -387,6 +415,18 @@ li{
 
 .papers-description h1{
   font-size: 3rem;
+  font-weight: 300;
+  margin: 1rem 0;
+}
+
+.papers-description h2{
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin: 1rem 0;
+}
+
+.papers-description h3{
+  font-size: 2rem;
   font-weight: 300;
   margin: 1rem 0;
 }

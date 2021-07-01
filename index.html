@@ -35,9 +35,10 @@
         </nav>
         <div class = "landing-text">
           <h1>Sharan Sahu</h1>
-          <h6>Aspiring Computer Scientist @ UC Berkeley</h6>
+          <h2 id = "text"></h2>
+        <script src="typing.js"></script>
+    </div>
   </header>
-
   <section id="about" class="about">
     <div class="container">
       <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
@@ -85,8 +86,9 @@
         <h6>View Some Of My Recent Projects And Papers</h6>
       </div>
        <div class="papers-description" data-aos="fade-left" data-aos-delay="300">
-        <h6>March 2021</h6>
+        <h6>April 2021</h6>
         <h1>Stuck On An Island</h1>
+        <h2>Languages Used: Java</h2>
         <div class="image">
           <img class = 'image_img' src="images/stuck_on_island1.png">
           <div class = 'image_overlay' onclick="void(0)">
@@ -99,11 +101,12 @@
       <div class="papers-description" data-aos="fade-left" data-aos-delay="300">
         <h6>March 2021</h6>
         <h1>Gitlet</h1>
+        <h2>Languages Used: Java</h2>
         <div class="image">
           <img class = 'image_img' src= "images/gitlet.png">
           <div class = 'image_overlay' onclick="void(0)">
             <p class = 'image_description'>
-              This project was aimed at recreating a small version of Git called Gitlet. Within this project, Gitlet supports add, rm, branch, status, log, global-log, and merge.
+              Implemented a version-control system using sha-1 and a parallel representation of classes as serialized files to enure persistence.
             </p>
           </div>
         </div>
@@ -111,11 +114,12 @@
       <div class="papers-description" data-aos="fade-left" data-aos-delay="300">
         <h6>December 2020</h6>
         <h1>LinkedList and ArrayList Deque API</h1>
+        <h2>Languages Used: Java</h2>
         <div class="image">
           <img class = 'image_img' src='images/linkedlist.png'>
           <div class = 'image_overlay' onclick="void(0)">
             <p class = 'image_description'>
-            This project was aimed at recreating the LinkedList and ArrayDeque APIs. This included implementing Deque methods such as addFirst, addLast, size, etc. The LinkedList Deque utilized a circular sentinel topology.
+            Implemented ArrayDeque and LinkedListDeque methods using a circular sentinel topology.
             </p>
           </div>
         </div>
@@ -123,12 +127,12 @@
       <div class="papers-description" data-aos="fade-left" data-aos-delay="300">
         <h6>November 2020</h6>
         <h1>Scheme Interpreter</h1>
+        <h2>Languages Used: Python</h2>
         <div class="image">
           <img class = 'image_img' src = 'images/scheme.png'>
           <div class = 'image_overlay' onclick="void(0)">
             <p class = 'image_description'>
-              In this project, lexical and syntatic analysis was utilized in order to parse Scheme expressions and interpret them in Python including function calling, conditionals, recursion, cons data structures with car and cdr functionality, and error handling.
-            </p>
+              Developed an interpreter for a subset of the Scheme language that syntactically tokenizes through inputs. Implemented with tail recursion.
           </div>
         </div>
       </div>
@@ -136,6 +140,8 @@
         <div class="papers-description" data-aos="fade-left" data-aos-delay="300">
           <h6>August 2020</h6>
           <h1>Direct Image Matching With Template Matching Via OpenCV</h1>
+          <h2>Languages Used: Python</h2>
+          <h3>Packages Used: OpenCV</h3>
           <p>
             Given an image, one may want to identify an embedded image within the given image.
             This requires the use of an isomorphic transformation of the projective space from one image to the other.
@@ -149,6 +155,8 @@
         <div class="papers-description" data-aos="fade-right" data-aos-delay="600">
           <h6>August 2019 – June 2020</h6>
           <h1>The Detection of Surface Deformities using Machine Learning and Image Processing Methods</h1>
+          <h2>Languages Used: Python, C++</h2>
+          <h3>Packages Used: Pandas, Keras, Tensorflow, Pickle, MatPlotLib</h3>
           <p>
             In this research, machine learning methods and image processing were utilized in order to determine whether a surface contains a deformity.
             Through the development of a C++ script to generate surface deformities given image length, width, maximum deformity radius, and sample size as the training-set, we utilize machine learning classifiers,
@@ -171,7 +179,6 @@
       </div>
     </div>
   </section>
-
   <section id="contact" class="contact">
     <div class="container">
       <div class="section-heading">
@@ -192,8 +199,6 @@
     </div>
     <p>Sharan Sahu &copy; 2021</p>
   </footer>
-
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="main.js"></script>
