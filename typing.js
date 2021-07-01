@@ -1,8 +1,8 @@
 const textDisplay = document.getElementById('text');
-const phrases = ['Welcome To My Website',
-'I Am Sharan',
-'I Study CS And Applied Math At UC Berkeley',
-'Scroll Down To Learn More About Me'];
+const phrases = ['Welcome To My Website!',
+'I Am Sharan.',
+'CS And Applied Math @ Cal.',
+'Scroll Down To Learn More About Me!'];
 let i = 0;
 let j = 0;
 let currentPhrase = [];
