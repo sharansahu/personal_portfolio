@@ -387,8 +387,6 @@ li{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  object-fit: cover;
-  object-position: bottom;
   opacity: 0;
   transition: opacity 0.25s;
 }
@@ -407,8 +405,10 @@ li{
 }
 
 .image_description{
-  font-size: 1rem
+  font-size: 2rem;
   max-width: 100%;
+  object-fit: cover;
+  object-position: center;
   max-height: clamp(10%, 100%, 30%);
   block-size: fit-content;
 }
