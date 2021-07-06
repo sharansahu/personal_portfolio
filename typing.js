@@ -1,7 +1,7 @@
 const textDisplay = document.getElementById('text');
 const phrases = ['Welcome To My Website!',
 'I Am Sharan.',
-'CS And Applied Math @ Cal.',
+'I Study CS And Applied Math At Cal.',
 'Scroll Down To Learn More About Me!'];
 let i = 0;
 let j = 0;

@@ -19,13 +19,12 @@ body{
 }
 
 section{
-  padding: 6rem 0;
+  padding: 2rem 0;
 }
 
 a{
   text-decoration: none;
   color: #eee;
-
 }
 
 p{
@@ -451,6 +450,16 @@ li{
 
 .paper-description .cta:hover{
   color: #2f67cd;
+}
+
+.link_class{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 17px;
+  color: #cd9b2f;
+  display: inline-block;
+  line-height: 0;
 }
 /*End services*/
 
